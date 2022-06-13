@@ -6,8 +6,60 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Case Unsolved</title>
+    <style>
+      @import url('//hello.myfonts.net/count/3909aa');
+
+      @font-face {
+        font-family: 'Revue';
+        src: url('./fonts/3909AA_0_0.woff2') format('woff2'), url('./fonts/3909AA_0_0.woff') format('woff');
+      }
+
+      :root {
+        --font-family-base: 'Helvetica Neue', 'Helvetica', sans-serif;
+        --font-family-decorative: 'Revue', serif;
+        --font-family-condensed: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue', 'Helvetica', sans-serif;
+        --font-family-serif: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+        --color-primary: hsl(269, 66%, 62%);
+      }
+
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        padding: 2rem;
+        text-align: center;
+        background-color: hsl(220, 10%, 5%);
+      }
+
+      h1 {
+        margin-bottom: 0.25rem;
+        font-family: var(--font-family-decorative);
+        text-transform: uppercase;
+        font-size: 4rem;
+        line-height: 1;
+        color: white;
+      }
+
+      p {
+        font-family: var(--font-family-base);
+        font-size: 1.5rem;
+        line-height: 1.25;
+        font-weight: bold;
+        letter-spacing: -.0125em;
+        color: var(--color-primary);
+      }
+    </style>
 </head>
 <body>
-    <h1>Coming soon!</h1>
+    <h1>CASE UNSOLVED</h1>
+    <p>COMING SOON</p>
 </body>
 </html>
